@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 // import TableDashboard from "../components/ui/TableDashboard/TableDashboard"
 function Users () {
 const projectData = {
-        profile: "Projects Names",
+        profile: "Users Names",
         columns: ["#", "First Name", "Last Name", "Username"], 
         users: [
             { id: 1, firstName: "Mazen", lastName: "Amir", username: "@maz" },
