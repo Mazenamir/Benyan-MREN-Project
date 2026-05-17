@@ -1,13 +1,13 @@
 // import FormDashboard from "../components/ui/FormDashboard/FormDashboard";
 import { Outlet } from "react-router-dom";
 // import TableDashboard from "../components/ui/TableDashboard/TableDashboard"
-function Users () {
+function Developer () {
 const projectData = {
-        profile: "Projects Names",
-        columns: ["#", "First Name", "Last Name", "Username"], 
+        profile: "Developers Names",
+        columns: ["#", "First Name", "Company", "comp Mail"], 
         users: [
-            { id: 1, firstName: "Mazen", lastName: "Amir", username: "@maz" },
-            { id: 2, firstName: "Youssef", lastName: "Ismail", username: "@you" }
+            { id: 1, firstName: "Mazen", lastName: "IBM", username: "@IBM" },
+            { id: 2, firstName: "Youssef", lastName: "AWS", username: "@AWS" }
         ]
     };
     return ( 
@@ -24,4 +24,4 @@ const projectData = {
 
 );
 }
-export default Users ;
+export default Developer ;
